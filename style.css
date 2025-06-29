@@ -1,0 +1,262 @@
+:root {
+     --pri_color: RGB(56, 28, 10);
+     --sec_color: RGB(116, 81, 45);
+     /* --font_color: RGB(116, 81, 45) ; */
+}
+
+
+@font-face {
+     font-family: aeonik;
+     font-weight: 200;
+     src: url(./fonts/AeonikTRIAL-Light.otf);
+}
+
+@font-face {
+     font-family: aeonik;
+     font-weight: 500;
+     src: url(./fonts/AeonikTRIAL-Regular.otf);
+}
+
+@font-face {
+     font-family: aeonik;
+     font-weight: 700;
+     src: url(./fonts/AeonikTRIAL-Bold.otf);
+}
+
+
+
+* {
+     font-family: "aeonik";
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+
+html,
+body {
+     height: 100%;
+     width: 100%;
+     overflow-x: hidden;
+}
+
+.main {
+     height: 120%;
+     width: 100%;
+     background-color: var(--pri_color);
+
+     padding: 4vh;
+}
+
+nav {
+     background-color: var(--sec_color);
+     height: 10vh;
+     width: 100%;
+     display: flex;
+     font-family: "aeonik";
+     justify-content: space-between;
+     align-items: center;
+     color: rgb(229, 227, 225);
+     padding: 0 1vw;
+     font-size: 1.2rem;
+     padding-right: 2vw;
+     border-radius: 10px;
+}
+
+a {
+     text-decoration: none;
+     color: rgb(229, 227, 225);
+     font-weight: 500;
+     padding: 0.8vw 0.8vw;
+     border-radius: 12px;
+
+     border: 2px solid rgb(229, 227, 225);
+
+}
+
+.ri-github-line {
+     font-size: 3.5vh;
+}
+
+.img {
+     font-family: "aeonik";
+     padding: .5vw 5vh;
+     margin-top: 2vh;
+     width: 100%;
+     height: 40vh;
+     display: flex;
+
+     justify-content: space-between;
+     color: rgb(229, 227, 225);
+
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+     /* Replace with your actual image */
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     overflow: hidden;
+
+}
+
+.date_day {
+     gap: 0.5vw;
+     display: flex;
+     flex-direction: column;
+
+}
+
+.date {
+     font-size: 1.5rem;
+     display: flex;
+     gap: 0.5vw;
+}
+
+.day {
+     display: flex;
+     gap: 0.5vw;
+     font-size: 2.5rem;
+}
+
+.location {
+     margin-top: 10vh;
+     font-size: 1.5rem;
+     font-weight: 500;
+}
+
+
+.temprature_weather {
+
+     display: flex;
+     flex-direction: column;
+     gap: 0.2vh;
+}
+
+.temprature {
+     display: flex;
+     font-size: 2.5rem;
+     margin-top: 3vh;
+}
+
+.weather_des {
+     font-size: 1rem;
+
+     font-weight: 500;
+}
+
+
+.perceptin_wind_humindiny {
+     margin-top: 5vh;
+}
+
+.Precipitation,
+.Wind {
+     display: flex;
+     font-size: 1.2rem;
+
+     margin-top: 0.5vh;
+}
+
+.features {
+     margin-top: 2vh;
+     padding: 4vh;
+     display: flex;
+
+     justify-content: space-between;
+     gap: 1vh;
+     width: 100%;
+     height: 60vh;
+
+     /* background-color: #000000; */
+}
+
+.feature {
+
+     width: 20vw;
+     height: 100%;
+     background-color: #fff;
+     border-radius: 10px;
+     cursor: pointer;
+     /* transform: scale(0.95); */
+
+}
+
+.todo h1 {
+     top: 90%;
+     left: 55%;
+     color: aliceblue;
+     position: relative;
+
+}
+
+.todo {
+
+     background-image: url("https://plus.unsplash.com/premium_photo-1710962184909-f9f8dc2c9f5f?q=80&w=3987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+.Daily_Planner {
+     background-image: url("https://images.unsplash.com/photo-1677249490921-3246e81f19e3?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+.Daily_Planner h1 {
+     top: 90%;
+     left: 39%;
+     color: aliceblue;
+     position: relative;
+
+}
+
+.Motivation {
+     background-image: url("https://images.unsplash.com/photo-1678986718987-76f0b9357e0f?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+.Motivation h1 {
+     top: 90%;
+     left: 47%;
+     color: aliceblue;
+     position: relative;
+
+}
+
+.Pomodoro_Timer {
+     background-image: url("https://images.unsplash.com/photo-1648457259767-e3a7fea65a99?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          );
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+.Pomodoro_Timer h1 {
+     top: 90%;
+     left: 35%;
+     color: aliceblue;
+     position: relative;
+
+}
+
+
+.Daily_Goals {
+     background-image: url("https://images.unsplash.com/photo-1718202248232-0cdbc15d29b2?q=80&w=3928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+.Daily_Goals h1{
+       top: 90%;
+     left: 47%;
+     color: aliceblue;
+     position: relative;
+}
