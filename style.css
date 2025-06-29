@@ -8,19 +8,19 @@
 @font-face {
      font-family: aeonik;
      font-weight: 200;
-     src: url(./fonts/AeonikTRIAL-Light.otf);
+     src: url(./AeonikTRIAL-Light.otf);
 }
 
 @font-face {
      font-family: aeonik;
      font-weight: 500;
-     src: url(./fonts/AeonikTRIAL-Regular.otf);
+     src: url(./AeonikTRIAL-Regular.otf);
 }
 
 @font-face {
      font-family: aeonik;
      font-weight: 700;
-     src: url(./fonts/AeonikTRIAL-Bold.otf);
+     src: url(./AeonikTRIAL-Bold.otf);
 }
 
 
